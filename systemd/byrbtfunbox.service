@@ -1,0 +1,11 @@
+[Unit]
+Description=ByrBT Funbox to Telegraph
+After=network.target
+
+[Service]
+WorkingDirectory=/path/to/the/repo
+ExecStart=/path/to/the/repo/wrapper.sh
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target

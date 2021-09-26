@@ -1,0 +1,10 @@
+[Unit]
+Description=ByrBT FunBox to Telegraph
+
+[Timer]
+OnBootSec=25s
+OnUnitActiveSec=30min
+Persistent=true
+
+[Install]
+WantedBy=timers.target

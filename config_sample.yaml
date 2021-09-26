@@ -1,0 +1,11 @@
+byrbt:
+  cookies: "COPY YOU COOKIES HERE"
+telegraph:
+  access_token: "your telegraph account token, you can get it using pypi telegraph module create_account"
+  auth_url: "an url login you into the telegraph account, getting same as above"
+telegram_bot:
+  bot_token:
+    "0000011111:AAAAAAAAAAAAAAAAAAAAAAAAAA"
+  channel_id:
+    "channel_id"
+

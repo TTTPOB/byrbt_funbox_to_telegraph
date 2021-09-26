@@ -1,0 +1,5 @@
+history_hash.sqlite
+config.yaml
+.venv
+img
+helpers/__pycache__
